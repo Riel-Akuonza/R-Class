@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background:  linear-gradient(135deg, #3a7bd5, #7b4397);
+    color: white;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+header h2 {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+.button-login,
+.button-signup {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+.button-login:hover {
+    background-color: #5a5a8f;
+}
+
+.button-signup {
+    background-color: #6c63ff;
+    font-weight: bold;
+}
+
+.button-signup:hover {
+    background-color: #5349d4;
+}
+
+  .container {
+    background: linear-gradient(135deg, #4c8bf5, #1e3c72);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    text-align: center;
+    margin: 0  auto;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+.container-HTML {
+    background: linear-gradient(135deg, #4c8bf5, #1e3c72);
+    color: #fff;
+    padding: 20px;
+    margin: 0  auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+
+}
+
+.container h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #474747;
+    color: #ffffff;
+}
+
+th, td {
+    padding: 12px 20px;
+    text-align: left;
+}
+
+th {
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #585858;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #6d6d6d;
+}
+
+tbody tr:hover {
+    background-color: #5a5a5a;
+}
+
+.download-btn {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.download-btn:hover {
+    background-color: #218838;
+}
+
+
+@media (max-width: 600px) {
+    th, td {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    th {
+        display: block;
+        text-align: center; 
+    }
+
+    tbody tr {
+        display: block; 
+        margin-bottom: 10px;
+        border-radius: 5px; 
+        background-color: #474747; 
+    }
+
+    td {
+        display: block; 
+        text-align: center;
+        padding: 8px; 
+    }
+
+    td:nth-of-type(1) {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    td:last-child {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}
+
+.news-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0  auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid black
+
+}
+.news-title {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.news-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+.news-item:last-child {
+    border-bottom: none;
+}
+.news-date {
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 8px;
+}
+.news-headline {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.news-description {
+    color: #555;
+    margin: 8px 0;
+}
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.read-more:hover {
+    text-decoration: underline;
+}
+.footer {
+    background-color: #282828;
+    color: #ffffff;
+    padding: 10px 0; 
+    text-align: center; 
+}
+
+.footer-content {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.credit {
+    margin: 0; 
+    font-size: 0.9em;
+}
+.Colom {
+    border: 1px solid #ffffff; 
+    padding: 8px; 
+    background-color: #7c7c7c;
+    font-family: monospace;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 5px;
+    text-align: start;
+  
+}
+.kotak {
+    display: inline-block; 
+    padding: 2px 5px;
+    background-color: #f0f0f080; 
+    border: 1px solid #ccc; 
+    border-radius: 3px; 
+    font-family: monospace; 
+    font-size: 1.0em; 
+}
